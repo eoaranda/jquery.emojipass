@@ -8,7 +8,7 @@ A simple, lightweight jQuery plugin for change the way you input passwords.
 
 ## General Information
 
-This is my first jQuery, so please feel free to improve. You can contribute to the project by reporting issues, suggesting new features, or submitting pull requests. 
+This is my first jQuery plugin, please feel free to improve. You can contribute to the project by reporting issues, suggesting new features, or submitting pull requests. 
 
 
 ## Requirements

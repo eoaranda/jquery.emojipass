@@ -12,6 +12,9 @@ $(document).ready(function(){
   $('#emoji-pass').emojiPass({
     imgsize:'35'
   });
+ $('#emoji-pass-confirm').emojiPass();
+ $('#emoji-pass-test').emojiPass();
+ $('#emoji-pass-test1').emojiPass();
 });
 </script>
 </head>
@@ -19,7 +22,14 @@ $(document).ready(function(){
 <h1></h1>
 
 <form method="post" action="submit.php" >
-<input class="input" type="text" name="pass" placeholder="Password" id="emoji-pass" size="10" >
+
+<input class="input" type="text" name="pass1" placeholder="Password" id="emoji-pass" size="10" >
+<br>
+<input class="input" type="text" name="pass2" placeholder="Password" id="emoji-pass-confirm" size="10" >
+<br>
+<input class="input" type="text" name="pass3" placeholder="Password" id="emoji-pass-test" size="10" >
+<br>
+<input class="input" type="text" name="pass4" placeholder="Password" id="emoji-pass-test1" size="10" >
 <br>
 <input type="submit" value="Submit" />
 <input type='reset' value='Reset' name='reset'>
