@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>Emoji Password</title>
+<link rel="shortcut icon" href="imgs/lock.png">
+<link rel="apple-touch-icon" href="imgs/lock.png">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+<script src="jquery.emojipass.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $('#emoji-pass').emojiPass({
+    imgsize:'35'
+  });
+});
+</script>
+</head>
+<body>
+<h1></h1>
+
+<form method="post" action="submit.php" >
+<input class="input" type="text" name="pass" placeholder="Password" id="emoji-pass" size="10" >
+<br>
+<input type="submit" value="Submit" />
+<input type='reset' value='Reset' name='reset'>
+</form>
+</body>
+</html>
