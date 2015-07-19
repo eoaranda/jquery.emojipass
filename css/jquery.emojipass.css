@@ -1,0 +1,21 @@
+ /* suggested styles*/
+ #emoji-pass {
+
+}
+#emoji-popup{
+
+}
+#emojiImgs{
+    cursor: pointer;
+}
+#emojiImgs img:hover{
+ background-color: #E0ECF8;
+}
+
+/*
+Feel free to edit the style of your input
+*/
+.input{
+  font-size: 18px;
+  font-family: verdana;
+}
