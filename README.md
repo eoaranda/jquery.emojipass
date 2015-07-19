@@ -12,7 +12,7 @@ This is my first jQuery plugin, please feel free to fork the project.
 
 The general idea of this plugin is to make password input in your website a little different and at the same time bring more secure passwords for your users. 
 
-When the user picks an image of his desire the UTF-8 character will be input into the password input and those characters after submission will be the ones saved in the database.
+When the user picks an image of his desire, the UTF-8 character will be input into the password field and those characters after submission will be the ones saved in the database.
 
 Work-flow diagram:
 
@@ -100,11 +100,27 @@ bootstrap/
 #### Compatilibity
 Tested compatibility by the moment:
 
-- Chrome 43.0 iOS
-- Firefox Win7
-- Chrome Win7
-- Chrome
-
+- Chrome 43.0 iOS X Yosemite
+  	* Works with icons
+	* Works with fonts
+- Firefox 40.0 Win7
+ 	* Works with icons
+	* Works with fonts
+	* <strong>[BUG]</strong> Icon-fonts not contained correctly.
+- Chrome 43.0 Win7
+	* Works with icons
+	* Works with fonts
+	* <strong>[BUG]</strong> Some icons (UTF-8) are not supported correctly.
+- Internet Explorer 11 Win7
+	* Works with icons
+	* <strong>[BUG]</strong> Icon-fonts not contained correctly.
+- Chrome 43.0 Android 4.4.2
+ 	* Works with icons
+	* Works with fonts
+- Chrome 43.0 Android 4.4.3
+  	* Works with icons
+	* Works with fonts
+	
 ##Features & Releses
 
 #### v1
@@ -114,7 +130,7 @@ Tested compatibility by the moment:
 * Close button.
 
 #### V1.2
-* Replaced dictionary from json variable into a external JSON field.
+* Replaced dictionary from json variable into a external JSON file.
 * Enable / disable use of images.
 * Use native chars if images are disabled.
 * Added more Emojis (40 in total now).
@@ -130,7 +146,7 @@ Tested compatibility by the moment:
 
 ##Copyright and license
 
-Code released under the MIT license.s.
+Code released under the MIT license.
 
 	
 

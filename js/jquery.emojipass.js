@@ -2,7 +2,7 @@
     Author: Omar Aguirre Aranda
     Year: 2015
     jQuery - emojipass v1.2
-
+    Code released under the MIT license.
  */
 (function($) {
     $.fn.emojiPass = function(options) {
