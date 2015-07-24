@@ -42,7 +42,7 @@ In the downloaded folder just open index.html and you will see the 2 examples of
 
 ###### Working example with the use of images:
 ![alt text](docs/images.png "Images example")
-###### Working example with the use of icons (Results may vary depending on the OS and the browser)
+###### Working example with the use of icon-fonts (Results may vary depending on the OS and the browser):
 ![alt text](docs/fonts.png "Fonts example")
 
 #### Example
