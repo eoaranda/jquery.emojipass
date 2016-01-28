@@ -12,7 +12,7 @@ This is my first jQuery plugin, please feel free to fork the project.
 
 The general idea of this plugin is to make password input in your website a little different and at the same time bring more secure passwords for your users. 
 
-When the user picks an image of his desire, the UTF-8 character will be input into the password field and those characters after submission will be the ones saved in the database.
+When the user picks an image of his desire, the emoji character will be input into the password field and those characters after submission will be the ones saved in the database.
 
 Work-flow diagram:
 
@@ -110,7 +110,7 @@ Tested compatibility by the moment:
 - Chrome 43.0 Win7
 	* Works with icons
 	* Works with fonts
-	* <strong>[BUG]</strong> Some icons (UTF-8) are not supported correctly.
+	* <strong>[BUG]</strong> Some icon chars are not supported correctly.
 - Internet Explorer 11 Win7
 	* Works with icons
 	* <strong>[BUG]</strong> Icon-fonts not contained correctly.
@@ -124,7 +124,7 @@ Tested compatibility by the moment:
 ##Features & Releses
 
 #### v1
-* Dictionary for all the emojis and its UTF8 translation.
+* Dictionary for all the emojis and its char version.
 * Randomly shown images.
 * More than one input password box.
 * Close button.
